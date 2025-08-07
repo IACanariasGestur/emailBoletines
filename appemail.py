@@ -279,7 +279,7 @@ def enviar_email_resumen(documentos, remitente, clave_app, destinatarios, cuerpo
 
 # ----------- STREAMLIT APP -----------
 
-st.set_page_config(page_title="Resumen de Boletines", layout="wide")
+st.set_page_config(page_title="Newsletter boletines", layout="wide")
 
 st.title("🗄️ BÚSQUEDA Y ENVÍO DE ANUNCIOS EN BOLETINES OFICIALES")
 st.info("Busca legislación y anuncios relevantes en BOE, BOC, BOP Las Palmas y BOP SC de Tenerife.\n\n"
